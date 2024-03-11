@@ -1,0 +1,25 @@
+.content{
+  background-color: rgb(19, 19, 19);
+  height: 400px;
+  display: flex;
+  justify-content:center ;
+  align-items: center;
+  
+}
+.GitHub{
+  color: white;
+  margin-left: 10px;
+}
+.Linkedin{
+  color: white;
+  margin-right: 10px;
+}
+.Space{
+  color: white;
+  margin-left: 5px;
+}
+.Istagram{
+  color:white;
+  margin-left: 10px;
+}
+

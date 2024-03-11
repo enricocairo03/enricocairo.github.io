@@ -1,0 +1,76 @@
+
+form{
+  box-shadow: 0 0 10px black;
+  width: 640px;
+  margin: 90px auto;
+  max-width: 97%;
+  border-radius: 16px;
+  padding: 10px 30px;
+  
+}
+form  .title h2{
+  letter-spacing: 6px;  
+  display: flex;
+  justify-content: center;
+  padding-bottom: 8px;
+  margin-bottom: 16px;
+  
+}
+form .half{
+  display: flex;
+  justify-content: space-around;
+}
+form .half .item{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24px;
+}
+form .half .item input{
+  border-radius: 16px;
+  border:  1px solid black;
+  outline: 0;
+  padding: 10px;
+  width: 100%;
+  background: transparent;
+  font-size: 17px;
+}
+ form .action input[type="submit"] {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 10px;
+  margin-top: 5px;
+  outline: none;
+  border: none;
+  letter-spacing: 1px;
+  cursor: pointer;
+  box-shadow: 0 0 10px black;
+ 
+  color: black;
+  transition: .5s;
+  
+  
+}
+form .action input[type="submit"]{
+  background: rgb(224, 153, 20);
+  color: black;
+}
+ form input[type="submit"]:hover{
+  box-shadow: none;
+}
+@media (max-width:480px){
+  form .half{
+    flex-direction: column;
+  }
+  form .half .item{
+    width: 100%;
+  }
+  form .action input{
+    margin-bottom: 10px;
+  }
+}

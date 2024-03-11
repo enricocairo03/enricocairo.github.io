@@ -1,0 +1,31 @@
+.section-header{  
+  height: 600px;
+}
+.row{
+  display: flex;
+  margin-top: 200px;
+  margin-left:5px; 
+}
+.btn{
+  background-color: orange;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+  padding-right: 25px;  
+}
+.btn:hover{
+  cursor: pointer;
+  color: white;
+  background-color: black;
+  transition: 0.3s;
+}
+@media (max-width:480px){
+  .section-header{
+    height: 190vh;
+  }
+  .row{
+    margin-top: 80px;
+    margin-bottom: 30px;
+  }
+}

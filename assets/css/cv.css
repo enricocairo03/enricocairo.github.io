@@ -1,0 +1,46 @@
+
+.section-header .container{
+  height: 650px;
+  width: 100%;
+  
+}
+.text-box{
+  color:black; 
+  width:100%;      
+  display:flex;
+  justify-content: center;
+  margin-top: 130px;
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  border-radius: 15px;
+  text-decoration-line: underline;
+  
+    
+}
+.card{
+  display: flex;
+  margin-top: 50px;
+  width: 100%;
+  height: 500px;
+  border-radius: 25px;
+  box-shadow: 0 0 50px rgb(50, 6, 92);
+}
+.card-text{
+  font-family: "Madimi One", sans-serif;;
+}
+.card-title{
+  font-family: "Madimi One", sans-serif;;
+  text-decoration: underline red;
+  font-weight: bold;
+  font-weight: 20px;
+}
+@media (max-width:900px){
+  .section-header .container{
+    height: 250vh;
+    width: 100%;
+    
+  }
+  .card{
+     height: 400px;   
+  }
+}
