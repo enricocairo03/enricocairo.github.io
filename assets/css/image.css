@@ -1,5 +1,5 @@
 .hero-section{
-  background-image: url(thumbnail-home.jpg);
+  background:url(thumbnail-home.jpg);
   background-size: cover;  
   position: relative;
   width: 100%;  
