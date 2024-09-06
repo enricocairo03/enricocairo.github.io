@@ -1,5 +1,5 @@
 .section-header{  
-  height: 600px;
+  height: 2000px;
 }
 .row{
   display: flex;
@@ -20,6 +20,13 @@
   background-color: black;
   transition: 0.3s;
 }
+.card{
+  max-width: 420px;
+  max-height: 320px;
+  margin-left: 40px;
+  margin-bottom: 50px;
+}
+
 @media (max-width:480px){
   .section-header{
     height: 190vh;
